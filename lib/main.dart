@@ -33,17 +33,17 @@ class _InicioState extends State<Inicio> {
         body: ListView(
           children: <Widget>[
             Container(
-              padding: EdgeInsets.all(100.0),
+              padding: EdgeInsets.all(20.0),
               child: Image.network(
                   "https://thumbs.dreamstime.com/z/el-dise%C3%B1o-desarrolla-la-l%C3%ADnea-plana-gr%C3%A1ficos-del-web-60326598.jpg"),
             ),
             Container(
-              padding: EdgeInsets.all(100.0),
+              padding: EdgeInsets.all(20.0),
               child: Image.network(
                   "https://thumbs.dreamstime.com/z/concepto-de-programaci%C3%B3n-software-desarrollo-y-codificaci%C3%B3n-109371534.jpg"),
             ),
             Container(
-              padding: EdgeInsets.all(100.0),
+              padding: EdgeInsets.all(20.0),
               child: Image.network(
                   "https://thumbs.dreamstime.com/z/concepto-de-programaci%C3%B3n-software-desarrollo-109263542.jpg"),
             )
