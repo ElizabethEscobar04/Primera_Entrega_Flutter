@@ -32,6 +32,19 @@ class _InicioState extends State<Inicio> {
             backgroundColor: Colors.deepPurpleAccent),
         body: ListView(
           children: <Widget>[
+            IconButton(
+              icon: Icon(Icons.access_alarms),
+              tooltip: "Alarma",
+              onPressed: () {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text("No estamos dormidos"),
+                    duration: Duration(seconds: 3),
+
+                  ),
+                );
+              },
+            ),
             Container(
               padding: EdgeInsets.all(20.0),
               child: Image.network(
